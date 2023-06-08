@@ -1,0 +1,76 @@
+body {
+
+    background-color: #360153;
+    text-decoration: none;
+    color: #F4EFFA;
+    
+}
+    
+div, img {
+
+    position: absolute;
+    width: 87px;
+    height: auto;
+    left: 107px;
+    top: 21px;
+    background: url(/assets/img/logo.png);
+
+}
+
+#boton {
+
+    position: absolute;
+    width: 174px;
+    height: 57px;
+    left: 1066px;
+    top: 46px;
+    background-color: transparent;
+    border-color: #F4EFFA;
+    border-radius: 10px;
+    border-style: double;
+    color: #F4EFFA;
+}
+
+  header {
+    
+    position: absolute;
+    width: 1133px;
+    height: 107px;
+    left: 107px;
+    top: 21px;
+    text-align: center;
+    
+ }
+
+ 
+ ul {
+
+    position: absolute;
+    width: 503px;
+    height: 19px;
+    left: 389px;
+    top: 65px;
+    word-wrap: 16px;
+    
+ }
+
+
+   footer {
+
+       display: grid;
+       grid-template-columns: 30% 15% 15% 20%;
+       column-gap: 5%;
+       padding: 1rem;
+       margin: 2rem auto;
+       flex-flow: column;
+       position: absolute;
+       width: 1520px;
+       height: auto;
+       left: 0px;
+       top: 3011px;
+       background: rgba(89, 46, 131, 0.6);
+  
+  }
+
+
+

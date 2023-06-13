@@ -1,17 +1,25 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
 body {
 
     background-color: #360153;
-    text-decoration: none;
     color: #F4EFFA;
+    position: relative;
     
 }
+
     
 div, img {
 
     position: absolute;
     width: 87px;
     height: auto;
-    left: 107px;
+    left: 0;
     top: 21px;
     background: url(/assets/img/logo.png);
 
@@ -22,7 +30,7 @@ div, img {
     position: absolute;
     width: 174px;
     height: 57px;
-    left: 1066px;
+    left: 1033px;
     top: 46px;
     background-color: transparent;
     border-color: #F4EFFA;
@@ -50,7 +58,7 @@ div, img {
     height: 19px;
     left: 389px;
     top: 65px;
-    word-wrap: 16px;
+    word-spacing: 87px;
     
  }
 
@@ -65,12 +73,30 @@ div, img {
        flex-flow: column;
        position: absolute;
        width: 1520px;
-       height: auto;
+       height: 368px; 
        left: 0px;
        top: 3011px;
        background: rgba(89, 46, 131, 0.6);
+       word-spacing: 107px;
+       text-align: center;
   
   }
+
+  
+  #Redes, span {
+    
+    font: optional;
+    size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+  
+}
+
+  
+
+  
+
+
 
 
 
